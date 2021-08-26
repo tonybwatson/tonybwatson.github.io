@@ -1,10 +1,13 @@
-# The First Week
+# **Tony Watson's Web Dev Bootcamp Blog**
+
+## First Week
+### 8/25/2021
 
 ---
 
 Thus far, my first week hasn't been what I'd expected. I figured we'd be starting with HTML, CSS, something along those lines. 
 
-I'm glad we're starting by getting familiar with the command line, Codeanywhere and Github. I knew absolutely nothing about any of these before we started, and after a bit of practice I'd consider myself "in need of tons more practice". 
+We're starting by learning to use the command line, Codeanywhere and Github. I knew absolutely nothing about any of these before we started, and after a bit of practice I'd consider myself "in need of tons more practice". 
 
 No [Dunning-Kruger effect](https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect) here. 
 
@@ -14,6 +17,6 @@ I'm assuming by the end of bootcamp I'll be fairly proficient with all the syste
 One last note... Reading through the list of commands for the terminal made me better understand this comic I remembered from XKCD...
 
 ![XKCD comic - A stick-figure tells his friend "Sudo make me a sandwich"](https://imgs.xkcd.com/comics/sandwich.png)
-###### Sudo allows users to run programs with the security privileges of another user
+###### Sudo (SuperUser Do) allows users to perform tasks that require administrative permissions. So basically he's forcing the other stick figure to make the sandwich.
 
 *Still* not funny. 🙄
