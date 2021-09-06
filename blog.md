@@ -41,11 +41,13 @@ Pretty straightforward.
 
 The main project we worked on this week was a module on structuring a page of content using semantic elements. The module provides a page of HTML content and a CSS stylesheet. The two have to be linked by placing semantic elements in the HTML to match those in the CSS. As they're placed, the page rearranges itself into a more aesthetically pleasant website.
 
+You can find the code for my completed site [here](https://github.com/tonybwatson/birdwatching).
+
 Semantic elements include tags such as article, main, header, footer, etc. The type of semantic element describes what type of content should be placed within it. For example, a header typically contains introductory content like a logo or headings; footers generally contain author info, copyright information, etc. 
 
 More in-depth info on semantic elements can be found at [W3Schools.com](https://www.w3schools.com/html/html5_semantic_elements.asp)
 
-<!-- (Maybe include screenshots?) -->
+---
 
 The biggest takeaway for me this week was the power of Chrome’s dev tools. They can be used to see what changes to CSS would look like, without having to directly change the CSS file. 
 
@@ -64,6 +66,7 @@ I struggle with imposter syndrome and explaining myself in general.
 When I encounter a problem, I tend to Google the answer first.  As I progress further in the bootcamp, I'm learning more relevant keywords and sites to find help faster.  When all else fails, it's nice to have our Slack group available to bounce ideas off of.  
 I have trouble knowing when a project is “good enough.” I can figure out how to do most tasks, but explaining how I got to my answer/finished product has always been a problem for me, which is unfortunately not an answer the otherwise omnipotent Google can provide. Hopefully I'll be able to improve upon that lack of self-confidence as the bootcamp continues.
 
+---
 
 ## Week One
 ### 8/25/2021
