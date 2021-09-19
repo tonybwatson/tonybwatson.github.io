@@ -2,6 +2,66 @@
 
 ---
 
+## Week Four: _On Pseudocode and Working From Home_
+### 9/13/21 - 9/17/21
+
+---
+
+## Weekly Breakdown
+
+This week was exhausting. We worked primarily on pseudocode (breaking down instructions for how a program should work into easily readable English.) 
+
+I have trouble thinking in that way - my mind tends to jump back and forth between different pieces of the project I'm working on, writing whatever code comes to mind at any given moment. The first time I attempted the pseudocode project (writing out an everyday task in pseudocode), I  just wrote it out as code. I started again from the beginning and I feel that my second attempt is much better.
+
+To improve my ability to pseudocode, I'll need to work on my ability to focus and break down ideas into smaller pieces in a specific order, focusing on what needs to be done at each stage, rather than just focusing on the overall project. I need to focus on simplification.
+
+This week we also worked on a project that created a game in which the player controls an Evil Circle that causes bouncing balls to disappear. 
+
+I had a ton of fun with this project. I hit several stretch goals - I made the objects wrap to the other side of the screen when they went off the side; caused the bouncing balls to change color and size when they collided with one another; and even implemented a "You win!" message when the player gets rid of all of the balls, after which the game resets. With several sections of this project (particularly the counter which shows how many balls remain on screen), I found that pseudocode greatly aided me in breaking down exactly what needed to be done to solve the problem in that given instance.
+
+My biggest roadblock with this project was caused by a simple typing error. I spent around an hour trying to get the bouncing ball game working again after I'd broken it trying to code the EvilCircle. After what felt like hours (it was probably about a half-hour) of scanning through the code, I realized I'd placed an additional set of parentheses.
+
+The original:
+
+    EvilCircle.prototype = Object.create()(Shape.prototype);
+    EvilCircle.prototype.constructor = EvilCircle;
+
+The fixed version:
+
+    EvilCircle.prototype = Object.create(Shape.prototype);
+    EvilCircle.prototype.constructor = EvilCircle;
+
+![This little maneuver's gonna cost us 51 years](https://pbs.twimg.com/media/EOtgwQxUcAAhWWH?format=jpg&name=small)
+
+Pictured: Me, typing that additional set of parentheses.
+
+After working on this project, I realized I may enjoy working in game design. I'll probably work on simple side projects of my own and go from there.
+
+---
+
+The most helpful part of the onboarding process through Awesome Inc was the ability to work from home at my own pace. I'm typically not a morning person; I get my best work done in the afternoon and early evening. Working at home, I've been able to do everything at my own pace and in my own time. Adjusting to this sort of workload over a month at more or less my own pace made the process less painful.
+
+Adjusting to the 8 am - 5 pm schedule in the coming weeks will be a challenge. Luckily, I've prepared in practically every way I could - Meals are prepped, contingency plans are set up (what if my car breaks down? What if...) 
+
+I'm as ready as I'll ever be.
+
+The help channel on Slack was super helpful as well - being able to ask questions and to see other bootcampers' questions is incredibly useful. Several times during onboarding I had a problem or issue and opened up the help channel on Slack, only to see another bootcamper with a similar problem already solved.
+
+--- 
+
+My biggest hindrance during onboarding was imposter syndrome. I tend to feel my work isn't good enough - not just with regular code, but with other projects (including this blog.) I hate putting my work and words "out there."
+
+---
+
+## On overcoming challenges:
+
+My primary methods for overcoming challenges during onboarding were 
+1. "Google it" - If I encounter a problem, my first instinct is to search for information on how to fix that problem. The first few results for most of my code-related searches tend to pull up information from MDN Web Docs, W3 Schools, or StackOverflow. The former two are the preferred method of solving problems - MDN and W3 Schools give information on how processes actually work, and while StackOverflow answers usually give working code, they often don't give the best explanation for _why_ it works.
+2. "Throw stuff at the wall and see what happens" - This only works for problems about which I already have a little bit of knowledge. If I know a bit about what _should_ fix the problem, I can usually work it out eventually.
+3. "Ask for help" - I've always had a problem asking for help. I'd rather not admit I have a problem than show weakness - though when I've asked for help, I've been pointed in the right direction fairly quickly. I'm hoping to improve upon this during the next few months.
+
+---
+
 ## Week Three: _“I made an alarm clock”_ or _“How I spent several hours trying to get an alarm to stop going off every time the page reloaded”_
 ### 9/6/21 - 9/10/21
 
