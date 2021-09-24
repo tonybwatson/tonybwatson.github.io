@@ -1,11 +1,138 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" src="./css/style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <title>Bootstrap blog template</title>
+  </head>
+  <body style="background-color: #CFCCD6;">
+      <!-- navbar along top with button -->
+    <nav class="navbar navbar-expand-md navbar-light" style="background-color: #B5B2BD;">
+  <div class="container border-bottom">
+      <picture style="padding: .5em;">
+          <source scrset="">
+            <img src="./img/150pxplaceholder.png" class="img-fluid img-thumbnail" style="max-width: 50%;" alt="Image subject to change">
+      </picture>
+    <a class="navbar-brand" href="#">Tony's (Slightly Improved) <br>
+        Awesome Inc. Bootcamp Blog</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<br>
+
+<!-- cards to hold article information -->
+<div class="w-80 p-3">
+    <div class="card" style="background-color: #B5B2BD;">
+    <div class="card-header" style="background-color: #8590C1">
+        THIS IS AN ARTICLE TITLE
+    </div>
+    <div class="card-body">
+        <blockquote class="blockquote mb-0">
+        <p class="text-sm-left text-md-center px-4">This is article text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum, mi nec fringilla venenatis, urna nisi vulputate metus, molestie lobortis nibh justo vitae nunc. Quisque pellentesque, felis vitae tincidunt cursus, nisl nunc fringilla nunc, sed sollicitudin erat est rutrum erat. Maecenas interdum, lectus vitae semper vulputate, turpis ipsum ullamcorper dui, a condimentum augue tortor ac arcu. Mauris blandit iaculis tortor, quis consequat nulla porttitor eget. Integer lectus magna, porta a euismod at, mollis vitae diam. Aliquam eu mi id mauris ultrices maximus ut eget justo. Morbi in est ac turpis blandit sollicitudin et eu nisl. Etiam at malesuada tellus, a pretium orci. Vivamus venenatis efficitur turpis, sed dapibus tortor tincidunt vitae. Donec quam dui, lacinia a arcu sed, pulvinar suscipit elit.</p>
+        <a class="btn btn-secondary" style="background-color: #8590c1; color: #322E18;">Full Post</a>
+        </blockquote>
+    </div>
+    </div>
+</div>
+
+<br>
+
+<div class="w-80 p-3">
+    <div class="card" style="background-color: #B5B2BD;">
+    <div class="card-header" style="background-color: #8590C1">
+        THIS IS AN ARTICLE TITLE
+    </div>
+    <div class="card-body">
+        <blockquote class="blockquote mb-0">
+        <p class="text-sm-left text-md-center px-4">This is article text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum, mi nec fringilla venenatis, urna nisi vulputate metus, molestie lobortis nibh justo vitae nunc. Quisque pellentesque, felis vitae tincidunt cursus, nisl nunc fringilla nunc, sed sollicitudin erat est rutrum erat. Maecenas interdum, lectus vitae semper vulputate, turpis ipsum ullamcorper dui, a condimentum augue tortor ac arcu. Mauris blandit iaculis tortor, quis consequat nulla porttitor eget. Integer lectus magna, porta a euismod at, mollis vitae diam. Aliquam eu mi id mauris ultrices maximus ut eget justo. Morbi in est ac turpis blandit sollicitudin et eu nisl. Etiam at malesuada tellus, a pretium orci. Vivamus venenatis efficitur turpis, sed dapibus tortor tincidunt vitae. Donec quam dui, lacinia a arcu sed, pulvinar suscipit elit.</p>
+        <a class="btn btn-secondary" style="background-color: #8590c1; color: #322E18;">Full Post</a>
+        </blockquote>
+    </div>
+    </div>
+</div>
+
+<br>
+
+<div class="w-80 p-3">
+    <div class="card" style="background-color: #B5B2BD;">
+    <div class="card-header" style="background-color: #8590C1">
+        THIS IS AN ARTICLE TITLE
+    </div>
+    <div class="card-body">
+        <blockquote class="blockquote mb-0">
+        <p class="text-sm-left text-md-center px-4">This is article text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum, mi nec fringilla venenatis, urna nisi vulputate metus, molestie lobortis nibh justo vitae nunc. Quisque pellentesque, felis vitae tincidunt cursus, nisl nunc fringilla nunc, sed sollicitudin erat est rutrum erat. Maecenas interdum, lectus vitae semper vulputate, turpis ipsum ullamcorper dui, a condimentum augue tortor ac arcu. Mauris blandit iaculis tortor, quis consequat nulla porttitor eget. Integer lectus magna, porta a euismod at, mollis vitae diam. Aliquam eu mi id mauris ultrices maximus ut eget justo. Morbi in est ac turpis blandit sollicitudin et eu nisl. Etiam at malesuada tellus, a pretium orci. Vivamus venenatis efficitur turpis, sed dapibus tortor tincidunt vitae. Donec quam dui, lacinia a arcu sed, pulvinar suscipit elit.</p>
+        <a class="btn btn-secondary" style="background-color: #8590c1; color: #322E18;">Full Post</a>
+        </blockquote>
+    </div>
+    </div>
+</div>
+
+<br>
+
+<div class="w-80 p-3">
+    <div class="card" style="background-color: #B5B2BD;">
+    <div class="card-header" style="background-color: #8590C1">
+        THIS IS AN ARTICLE TITLE
+    </div>
+    <div class="card-body">
+        <blockquote class="blockquote mb-0">
+        <p class="text-sm-left text-md-center px-4">This is article text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum, mi nec fringilla venenatis, urna nisi vulputate metus, molestie lobortis nibh justo vitae nunc. Quisque pellentesque, felis vitae tincidunt cursus, nisl nunc fringilla nunc, sed sollicitudin erat est rutrum erat. Maecenas interdum, lectus vitae semper vulputate, turpis ipsum ullamcorper dui, a condimentum augue tortor ac arcu. Mauris blandit iaculis tortor, quis consequat nulla porttitor eget. Integer lectus magna, porta a euismod at, mollis vitae diam. Aliquam eu mi id mauris ultrices maximus ut eget justo. Morbi in est ac turpis blandit sollicitudin et eu nisl. Etiam at malesuada tellus, a pretium orci. Vivamus venenatis efficitur turpis, sed dapibus tortor tincidunt vitae. Donec quam dui, lacinia a arcu sed, pulvinar suscipit elit.</p>
+        <a class="btn btn-secondary" style="background-color: #8590c1; color: #322E18;">Full Post</a>
+        </blockquote>
+    </div>
+    </div>
+</div>
+
+<br>
     
-</body>
+<div class="container"></div>
+<footer>© Tony Watson 2021</footer>
+<!-- bottom of page navigation -->
+<!-- <nav class="fixed-bottom .mx-auto" style="width: 50%;" aria-label="...">
+  <ul class="pagination">
+    <li class="page-item disabled">
+      <a class="page-link">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item active" aria-current="page">
+      <a class="page-link" href="#">2</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+</nav> -->
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="./js/main.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+  </body>
 </html>
