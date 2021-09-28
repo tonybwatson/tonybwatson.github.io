@@ -17,13 +17,14 @@
     <!-- navbar along top with button -->
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #B5B2BD;">
         <div class="container border-bottom">
-            <picture style="padding: .5em;">
-                <source scrset="">
-                <img src="./img/150pxplaceholder.png" class="img-fluid img-thumbnail" style="max-width: 50%;"
-                    alt="Image subject to change">
-            </picture>
-            <a class="navbar-brand" href="#">Tony's (Slightly Improved) <br>
-                Awesome Inc. Bootcamp Blog</a>
+
+            <a class="navbar-brand" href="#">
+                <picture style="padding: .5em;">
+                    <source scrset="">
+                    <img src="./img/blog_logo.png" class="img-fluid" style="max-width: 50%;"
+                        alt="Image subject to change">
+                </picture>
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -32,13 +33,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <!-- <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">About Me</a>
-        </li> -->
-                    <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">About Me</a>
                     </li>
                 </ul>
             </div>
@@ -56,7 +54,7 @@
             </div>
             <div class="card-body">
                 <blockquote class="blockquote mb-0">
-                    <p class="text-sm-left text-md-left p-4">
+                    <p class=" text-md-left p-4">
                         The number one thing that held me back this week was <strong>stubbornness</strong>.<br>
                         I got stuck on one project and couldn’t focus on anything else until it was working. We had
                         three total projects this week - two of them focused on Bootstrap design, the other on
@@ -84,7 +82,7 @@
                         using.<br>
                     </p>
                     <h3>On “Why”:</h3>
-                    <p class="text-sm-left text-md-left p-4">
+                    <p class=" text-md-left p-4">
                         When I was a kid, I always assumed I’d end up working with computers.<br>
                         I caught Covid-19 in early December of 2020. I deteriorated rapidly - I could hardly walk from
                         one room to the next without resting or going into a coughing fit. I had a 102 fever, lost at
@@ -107,8 +105,8 @@
                         a constant, irritable mess.<br>
                         I realized I’d felt his way for <em>years</em>, exhausted from dealing with the same
                         problems; people asking the same five questions over and over (“<em>What’s a premium? What does
-                        my driving history have to do with anything? Why are you
-                        asking me all of these questions; I just want a <strong>quote</strong>?!?</em>”)<br>
+                            my driving history have to do with anything? Why are you
+                            asking me all of these questions; I just want a <strong>quote</strong>?!?</em>”)<br>
                         I’d become bitter.<br>
                         Toward the end of my illness, I had a discussion with my wife regarding a course she’d told me
                         about, offered by a company called Awesome Inc. It was a boot camp that taught web development
@@ -128,12 +126,13 @@
                         Amazing! I could do so much, just by typing a few words and symbols. Fixing a problem felt like
                         a real accomplishment. That feeling of accomplishment was something I hadn’t felt at any job I’d
                         had, not really.<br>
-                        For my final project in the intro course, I created a <em>Dungeons & Dragons</em> spellbook. When I typed
+                        For my final project in the intro course, I created a <em>Dungeons & Dragons</em> spellbook.
+                        When I typed
                         in the name of a spell, the spell popped up as a Bootstrap card. It was buggy, but it worked. I
                         actually used it while playing the game with friends. <br>
                         I could make things that were useful. </p>
-                        <h3>So, why am I doing this?</h3>
-                        <p class="text-sm-left text-md-left p-4">
+                    <h3>So, why am I doing this?</h3>
+                    <p class=" text-md-left p-4">
                         To get a job where I can feel like I’m doing something useful.<br>
                         To prove to myself that I can do this.<br>
                         To be better.
@@ -154,7 +153,7 @@
                 <blockquote class="blockquote mb-0">
 
                     <h3>Weekly Breakdown</h3>
-                    <p class="text-sm-left text-md-left p-4">
+                    <p class=" text-md-left p-4">
                         This week was exhausting. We worked primarily on pseudocode (breaking down instructions for how
                         a
                         program should work into easily readable English.)<br>
@@ -183,24 +182,26 @@
 
                     <h4>The original:</h4>
 
-                    <code>EvilCircle.prototype = Object.create()(Shape.prototype);
+                    <code class="text-md-left p-4">EvilCircle.prototype = Object.create()(Shape.prototype);
     EvilCircle.prototype.constructor = EvilCircle;</code>
 
-                    <p class="text-sm-left text-md-left p-4">The fixed version:</p>
+                    <p class=" text-md-left p-4">The fixed version:</p>
 
-                    <code>EvilCircle.prototype = Object.create(Shape.prototype);
+                    <code class="text-md-left p-4">EvilCircle.prototype = Object.create(Shape.prototype);
     EvilCircle.prototype.constructor = EvilCircle;</code><br>
-                    <figure>
-                        <img src="https://pbs.twimg.com/media/EOtgwQxUcAAhWWH?format=jpg&name=small" class="img-fluid" style="max-width: 100; height: auto; padding: 1em;">
-                        <figcaption>Pictured: Me, typing that additional set of parentheses.</figcaption>
+                    <figure class="figure">
+                        <img src="https://pbs.twimg.com/media/EOtgwQxUcAAhWWH?format=jpg&name=small"
+                            class="img-fluid figure-img" style="max-width: 100; height: auto; padding: .5em;">
+                        <figcaption class="figure-caption text sm-left p-4">Pictured: Me, typing that additional set of
+                            parentheses.</figcaption>
                     </figure>
-                    <p class="text-sm-left text-md-left p-4">
+                    <p class="text-md-left">
                         After working on this project, I realized I may enjoy working in game design. I'll probably work
                         on simple side projects of my own and go from there.</p>
 
                     <hr>
 
-                    <p class="text-sm-left text-md-left p-4">
+                    <p class="text-md-left p-4">
                         The most helpful part of the onboarding process through Awesome Inc was the ability to work from
                         home at my own pace. I'm typically not a morning person; I get my best work done in the
                         afternoon and early evening. Working at home, I've been able to do everything at my own pace and
@@ -218,13 +219,13 @@
                         problem or issue and opened up the help channel on Slack, only to see another bootcamper with a
                         similar problem already solved.</p>
                     <hr>
-                    <p class="text-sm-left text-md-left p-4">
+                    <p class=" text-md-left p-4">
                         My biggest hindrance during onboarding was imposter syndrome. I tend to feel my work isn't good
                         enough - not just with regular code, but with other projects (including this blog.) I hate
                         putting my work and words "out there."</p>
                     <hr>
                     <h3>On overcoming challenges:</h3>
-                    <p class="text-sm-left text-md-left p-4">
+                    <p class=" text-md-left p-4">
                         My primary methods for overcoming challenges during onboarding were</p>
                     <ol>
                         <li>"<strong>Google it</strong>" - If I encounter a problem, my first instinct is to search for
@@ -256,43 +257,212 @@
     <div class="w-80 p-3">
         <div class="card" style="background-color: #B5B2BD;">
             <div class="card-header" style="background-color: #8590C1">
-
+                <h3>Week Four: On Pseudocode and Working From Home</h3>
+                <h4>9/6/21 - 9/10/21</h4>
             </div>
             <div class="card-body">
                 <blockquote class="blockquote mb-0">
-                    <p class="text-sm-left text-md-left p-4">Remaining Blog Posts to be Added Soon!</p>
+                    <p class=" text-md-left p-4">
+                        So ends yet another exciting week of work for Awesome Inc's Bootcamp. I feel like I'm getting a
+                        better grasp on Javascript overall, though I have *so much more* to learn. I spent a ton of time
+                        this week debugging code to my "<a
+                            href="(https://en.wikipedia.org/wiki/Rubber_duck_debugging)">rubber duck</a>" (actually an
+                        Awesome Inc. branded
+                        stress-ball pig, pictured below) - I'm quite confident my wife thinks I've lost my mind.
+                    </p>
+                    <figure>
+                        <img src="img/pig-picture.jpg" class="img-fluid"
+                            style="max-width: 100; height: 20em; padding: 1em;">
+                        <figcaption>Handsome little guy, isn't he? I call him "Horton".</figcaption>
+                    </figure>
+                    <hr>
+                    <p class=" text-md-left p-4">
+                        The first project we worked on this week was a story generator. The generator takes a paragraph
+                        of text and replaces various parts of the string (“<code>:insertx:”, “:inserty:</code>", etc.)
+                        with other
+                        strings to make a story that changes when you press a button. To change these strings, the
+                        generator pulls strings from a series of arrays. <br>
+
+                        I got through the project without much trouble - just a bit of Googling and talking to the pig.
+                        I pondered for a while over a string that needed to be replaced twice, before remembering a
+                        [Codewars](https://www.codewars.com/) kata I worked on in early August that required replacing
+                        all instances of a string using only one line of code.
+                        I used `replaceAll()` to change both instances of the string without re-running the same code
+                        twice.<br>
+
+                        I may update the CSS on this project at a future date - it's pretty hideous as of now.
+                    </p>
+                    <hr>
+                    <p class=" text-md-left p-4">
+                        I spent two straight days working on this week’s second project, an alarm clock. <br>
+
+                        I was able to get the time to appear without <em>too</em> much trouble: <br>
+
+                        I created a function to show the time. To start, I created variables to pull in the date, and to
+                        pull the hours, minutes, and seconds as variables from the date.</p>
+                    <code class="text-md-left p-4">
+                        function updateTime() {
+                        var date = new Date();
+                        
+                        var hour = date.getHours();
+                        var minute = date.getMinutes();
+                        var second = date.getSeconds();
+                    </code>
+                    <p class=" text-md-left p-4">From there, I converted from military to standard time by
+                        subtracting 12 from the hours if they were higher than 12 (So, for example, if the hour appeared
+                        as 14, it would subtract 12 to get 2 o'clock.) Also, if the hour is 0, I converted it to 12 -
+                        midnight.</p>
+                    <code class="text-md-left p-4">
+                        if (hour > 12) {
+                            hour = (hour - 12);
+                        } else if (hour == 0) {
+                            hour = '12';
+                        }
+                    </code>
+                    <p class=" text-md-left p-4">When I tested this, I noticed the hours and minutes
+                        appeared as single numbers when they were not 10 or higher. (Ex: 953 to show 9:05:03) This
+                        simply wouldn't do. I had to add a zero in front of minutes or seconds less than 10. I added a
+                        zero in front of the hour as well, for uniformity and to keep the other digits on the clock from
+                        moving awkwardly to the right when the hour changed from single to double-digits.</p>
+                    <code class="text-md-left p-4">
+                        if (hour &lt 10) {
+                            hour = '0' + hour;
+                        }
+                        if (minute &lt 10) {
+                            minute = '0' + minute;
+                        }
+                        if (second &lt 10) {
+                            second = '0' + second;
+                        }
+                    </code>
+                    <p class=" text-md-left p-4"></p>With that sorted, I needed to format this information
+                    to appear as it would on a clock, adding colons between hour/minute/second - so I made a variable,
+                    `currentTime` (and also added in `<span>` to help the CSS for an animation on the colons):</p>
+                        <code class="text-md-left p-4">
+                            var currentTime = `${hour}<span class="blink">:</span>${minute}<span class="blink">:</span>${second}`;
+                        </code>
+                        <p class=" text-md-left p-4"></p>Finally, I needed to display the time in the HTML:
+                        </p>
+                        <code class="text-md-left p-4">
+                                document.getElementById('time').innerHTML=currentTime;
+                                }
+                            </code>
+                        <p class=" text-md-left p-4"></p>And with that, we had a way to display the time.
+
+                        <em>"Easy."</em> <a src="https://www.urbandictionary.com/define.php?term=%2FS">/s</a>
+
+                        <p class=" text-md-left p-4">But the time didn't update without refreshing the page.
+
+                            For that, I needed to use `setInterval()`:</p>
+                        <code class="text-md-left p-4">
+                            setInterval(updateTime, 1000)
+                            </code>
+                        <p class=" text-md-left p-4">And with that, I had a clock that updated every 1000
+                            milliseconds.<br>
+
+                            My next challenge was getting the alarms to work. <br>
+
+                            My first attempt at alarms ran directly from HTML, like so: <br>
+
+                            HTML: </p>
+
+                        <button onclick="setTimeout(alarm, 600000)">TEN MINUTE ALARM</button>
+
+                        <p class=" text-md-left p-4">JS: </p>
+                        <code class="text-md-left p-4">
+                            function alarm() {
+                            document.getElementById('alertSound').play();
+                            alert('!');
+                            }
+                        </code>
+                        <p class=" text-md-left p-4"></p>This used the button click to call the alarm
+                        function to set off a sound file and an alert. This technically worked, but I read this week
+                        that calling the function from HTML is not considered "best practice." The alarm sound and the
+                        visible alert also ran a few seconds apart, which wasn't great.
+
+                        I had to do something else.
+
+                        I removed the function call from HTML and moved the calls to Javascript:
+
+                        HTML: </p>
+                        <code class="text-md-left p-4">
+                            <button id="eightHour">EIGHT HOUR ALARM</button>
+
+                            <button id="tenMinute">TEN MINUTE ALARM</button>
+                                    
+                            <button id="tenSecond">TEN SECOND ALARM</button>
+                        </code>
+                        JS:
+                        <code class="text-md-left p-4">
+                            // variables to run different alarms
+                            var eightHour = document.getElementById('eightHour');
+                            var tenMinute = document.getElementById('tenMinute');
+                            var tenSecond = document.getElementById('tenSecond');
+
+                            // function calls for alarms
+
+                            tenSecond.onclick = setTimeout(alarm, 10000);
+                        </code>
+                        <p class=" text-md-left p-4"></p>The alarms ran instantly every time I clicked the
+                        alarm buttons, even though I'd included `setTimeout()` to make them wait a set amount of time
+                        before running. I struggled with this for a long while.
+                        With input from Awesome Inc instructor Justin Hall, I switched to inline functions, like so:
+                        </p>
+                        <code class="text-md-left p-4">
+                            eightHour.onclick = function () {setTimeout(alarm, 28800000);}
+                            tenMinute.onclick = function () {setTimeout(alarm, 600000);}
+                            tenSecond.onclick = function () {setTimeout(alarm, 10000);}
+                        </code>
+                        <p class=" text-md-left p-4"></p>And thus the alarms worked with the proper
+                        countdowns.
+
+                        I was able to get buttons for specific time increments working - 8 hour, ten-minute, and
+                        ten-second test alarms, but I've thus far been unable to get an alarm to set for a specific time
+                        of day.<br>
+
+                        Roughly a third of my time on this project was spent on CSS - I found an excellent font for the
+                        clock numbers, and for the sound, I used the classic <a
+                            src="https://www.youtube.com/watch?v=aXieXlAbpQg">alarm from every 80's clock
+                            radio</a>.<br>ß
+
+                        Once I have a better grasp of Javascript, I intend to come back to this project and set up an
+                        alarm that can be set for a specific time of day - for example, by typing in a specific time of
+                        day. I’d also like to incorporate a dark/light theme button, as well as responsive CSS.
+                        </p>
+                        <!-- <a class="btn btn-secondary" style="background-color: #8590c1; color: #322E18;">Full Post</a> -->
+                </blockquote>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="w-80 p-3">
+        <div class="card" style="background-color: #B5B2BD;">
+            <div class="card-header" style="background-color: #8590C1">
+            </div>
+            <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                    <p class=" text-md-left p-4">Remaining Blog Posts to be Added Soon!</p>
                     <!-- <a class="btn btn-secondary" style="background-color: #8590c1; color: #322E18;">Full Post</a> -->
                 </blockquote>
             </div>
         </div>
     </div>
 
-    <!-- <br>
+    <br>
 
-    <div class="w-80 p-3">
-        <div class="card" style="background-color: #B5B2BD;">
-            <div class="card-header" style="background-color: #8590C1">
-                THIS IS AN ARTICLE TITLE
-            </div>
-            <div class="card-body">
-                <blockquote class="blockquote mb-0">
-                    <p class="text-sm-left text-md-left p-4"></p>
-                    <a class="btn btn-secondary" style="background-color: #8590c1; color: #322E18;">Full Post</a>
-                </blockquote>
-            </div>
-        </div>
-    </div>
 
-    <br> -->
 
     <!-- <div class="w-80 p-3">
         <div class="card" style="background-color: #B5B2BD;">
             <div class="card-header" style="background-color: #8590C1">
-                THIS IS AN ARTICLE TITLE
+                <h3>ARTICLE TITLE</h3>
+                <h4>ARTICLE DATE</h4>
             </div>
             <div class="card-body">
                 <blockquote class="blockquote mb-0">
-                    <p class="text-sm-left text-md-center p-4">This is article text. Lorem ipsum dolor sit amet,
+                    <p class=" text-md-center p-4">This is article text. Lorem ipsum dolor sit amet,
                         consectetur adipiscing elit. Praesent bibendum, mi nec fringilla venenatis, urna nisi vulputate
                         metus, molestie lobortis nibh justo vitae nunc. Quisque pellentesque, felis vitae tincidunt
                         cursus, nisl nunc fringilla nunc, sed sollicitudin erat est rutrum erat. Maecenas interdum,
@@ -311,7 +481,7 @@
     <br>
 
     <div class="container"></div>
-    <footer>© Tony Watson 2021</footer>
+    <footer class="footer">© Tony Watson 2021</footer>
     <!-- bottom of page navigation -->
     <!-- <nav class="fixed-bottom .mx-auto" style="width: 50%;" aria-label="...">
   <ul class="pagination">
