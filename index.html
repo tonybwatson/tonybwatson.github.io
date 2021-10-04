@@ -1,11 +1,655 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" src="./css/style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <title>Tony's Bootcamp Blog</title>
 </head>
-<body>
-    
+
+<body style="background-color: #CFCCD6;">
+    <!-- navbar along top with button -->
+    <nav class="navbar navbar-light text-light flex-end" style="background-color: #B5B2BD;">
+        <div class="container border-bottom">
+            <a class="navbar-brand" href="">
+                <picture style="padding: .5em;">
+                    <source scrset="">
+                    <img src="./img/blog_logo.png" class="img-fluid" style="max-width: 20%;"
+                        alt="">
+                </picture>
+            </a>
+            <button class="navbar-toggler float-end" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">About Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <br>
+
+    <div class="container">
+        <div class="w-80 p-3">
+            <div class="card" style="background-color: #B5B2BD;">
+                <div class="card-header" style="background-color: #8590C1">
+                    <h3>Week Six: "In Person, Week Two: Electric Boogaloo"</h3>
+                    <h4>9/27/21 - 10/1/21</h4>
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <h3></h3>
+                        <h3>What I learned this week</h3>
+                        <ul class="text-md-left"></ul>
+                        <li>Deleting large blocks of code and starting over is not only completely acceptable, it's
+                            also often necessary. It's better to delete something that makes no logical sense and doesn't
+                            work, rewrite and rework the pseudocode, and end with a product that works, than to continue
+                            to pour time into something that doesn't work.</li>
+                        <li>Asking for help is fine and dandy, and leads to faster solutions.</li>
+                        <li>Sometimes just bouncing an idea off of someone else can lead you to the answer. </li>
+                        <li>The most important words to remember when working with Bootstrap are "Container, Row,
+                            Column."
+                        </li>
+                        </ul>
+                        </p>
+                        <h3>My Definition of "Good" Code:</h3>
+                        <p class=" text-md-left p-4">
+                            Good code works. Good code is reasonably easy to read. Good code doesn't repeat itself any
+                            more than is absolutely necessary. Good code gets the job done in the most efficient way.<br>
+                        </p>
+                        <figure class="figure">
+                            <img class="img-fluid figure-img" style="max-height: 250px; padding: .5em;" src="https://cdn.vox-cdn.com/thumbor/ScNYkpguBDqu5xMCI0xGQP4UGPw=/0x0:900x500/1400x788/filters:focal(378x178:522x322):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/49493993/this-is-fine.0.jpg"
+                            >
+                            <figcaption class="figure-caption text sm-left">Pictured: Me, reading through any given line of my code </figcaption>
+                        </figure>
+                        <h3>On Being a "Good" Developer:</h3>
+                        <p class=" text-md-left p-4">
+                            I'd imagine good developers deliver code that works, and they do so within a reasonable time
+                            frame.
+                            Good developers strive to improve their quality of work. <br>
+                            Good developers put in their best effort to make the best product possible. <br>
+                            Good developers follow through on their work. <br>
+                        </p>
+                        
+                        <h3>On What Programmers Hate Doing</h3>
+                        <p class=" text-md-left p-4">
+                            This programmer currently dislikes dealing with Bootstrap. He doesn't have a ton of practice
+                            with it yet, so working with it tends to frustrate him.<br>
+                            This programmer dislikes styling - he prefers to make things that work rather than things
+                            that
+                            are pretty. Once he's had more practice, perhaps that'll change. <br>
+                            This programmer is a huge fan of talking in third-person.
+                        </p>
+                        </p>
+                        <!-- <a class="btn btn-secondary" style="background-color: #8590c1; color: #322E18;">Full Post</a> -->
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <!-- cards to hold article information -->
+        <div class="w-80 p-3">
+            <div class="card" style="background-color: #B5B2BD;">
+                <div class="card-header" style="background-color: #8590C1">
+                    <h3>Week Five: First Week In-Person</h3>
+                    <h4>9/20/21 - 9/24/21</h4>
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p class=" text-md-left p-4">
+                            The number one thing that held me back this week was <strong>stubbornness</strong>.<br>
+                            I got stuck on one project and couldn’t focus on anything else until it was working. We had
+                            three total projects this week - two of them focused on Bootstrap design, the other on
+                            Javascript states.<br>
+                            I got stuck on the JS project. <br>
+                            In this project, I built a simple app to “guess” what number the user picked. The “guessing”
+                            relied on simple math and multiples of nine. The app assigns a random symbol to multiples of
+                            9,
+                            which (when the user follows the mathematical instructions on-screen) should match the
+                            user’s
+                            chosen number.<br>
+                            I got the early stages of the project done fairly quickly, scrolling through the different
+                            pages
+                            that were necessary by jumping through an array and displaying whichever page the user would
+                            be
+                            on at any given time, but I became stuck trying to get the random numbers to appear
+                            correctly.
+                            I spent the majority of my time dealing with problems on this specific project, leaving the
+                            other two projects less complete than I’d have liked.<br>
+                            One thing I’d like to learn more about Javascript is JSON. From the little bit that I’ve
+                            seen,
+                            it looks like it’ll be helpful, but I know next to nothing about it. I’m also excited to
+                            start
+                            working with frameworks that may help simplify some of the Javascript problems we’ve been
+                            working on.<br>
+                            In-person, Bootcamp is a much better experience than working remotely. Being able to just
+                            turn
+                            to someone else in the room and ask if they have any idea what might be wrong with my code
+                            is
+                            incredibly helpful. Also, having other people ask me for help tends to help me out with my
+                            code
+                            problems as well - I see a problem someone else is having and I'm able to come up with ways
+                            to
+                            potentially solve the problem before I encounter it myself. Seeing the problems that pop up
+                            and
+                            different ways to solve them also gives me a better understanding of the languages we’re
+                            using.<br>
+                        </p>
+                        <h3>On “Why”:</h3>
+                        <p class=" text-md-left p-4">
+                            I caught Covid-19 in early December of 2020. I deteriorated rapidly - I could hardly walk
+                            from
+                            one room to the next without resting or going into a coughing fit. I had a 102 fever, lost
+                            at
+                            least ten pounds, and couldn’t eat anything of substance. Breathing was agony
+                            and <em>everything</em> hurt. <br>
+                            About ten days in, I lay in a cold tub, trying to get my fever to break, staring at the
+                            ceiling. <br>
+                            I thought I was going to die.<br>
+                            <em>Not</em> great.<br>
+                            My fever broke the next morning. My health steadily improved. Eventually, I was able to go
+                            back
+                            to work. I recognized how much I dreaded returning when I realized I’d rather
+                            have <em>died</em> than go
+                            back. <br>
+                            Okay, that’s maybe a <em>tad</em> hyperbolic. But I’d grown to hate my job.
+                            The job was comfortable: decent pay, job security, coworkers were almost all fantastic. But
+                            I’d
+                            been there for nearly half a decade and didn’t feel like what I was doing accomplished
+                            anything
+                            worthwhile. I disliked sales (I was an insurance agent for the big green
+                            lizard; <em>nobody</em> likes
+                            dealing with insurance on <em>any</em> level.) I came home every day exhausted and angry. I
+                            was
+                            a constant, irritable mess.<br>
+                            I realized I’d felt his way for <em>years</em>, exhausted from dealing with the same
+                            problems; people asking the same five questions over and over (“<em>What’s a premium? What
+                                does
+                                my driving history have to do with anything? Why are you
+                                asking me all of these questions; I just want a <strong>quote</strong>?!?</em>”)<br>
+                            I’d become bitter.<br>
+                            Toward the end of my illness, I had a discussion with my wife regarding a course she’d told
+                            me
+                            about, offered by a company called Awesome Inc. It was a boot camp that taught web
+                            development
+                            skills. <br>
+                            It was a huge undertaking - 16 weeks, 8 am to 5 pm, participants couldn’t work elsewhere
+                            during
+                            the camp. <br>
+                            I did some research and found that Awesome offered an Intro to Web Development course that
+                            introduced some basic information on web-dev. It wasn’t very expensive and, if I ended up
+                            taking
+                            the bootcamp, the money I paid for the course would transfer to the bootcamp.<br>
+                            The class was in the evening; it wouldn’t interrupt my work schedule.<br>
+                            What did I have to lose?<br>
+                            I signed up.<br>
+                            It. Was. Awesome.<br>
+                            I hadn’t learned anything particularly useful since college, and by the end of college, I
+                            was
+                            just trying to get the degree and get out.<br>
+                            But programming?<br>
+                            Amazing! I could do so much, just by typing a few words and symbols. Fixing a problem felt
+                            like
+                            a real accomplishment. That feeling of accomplishment was something I hadn’t felt at any job
+                            I’d
+                            had, not really.<br>
+                            For my final project in the intro course, I created a <em>Dungeons & Dragons</em> spellbook.
+                            When I typed
+                            in the name of a spell, the spell popped up as a Bootstrap card. It was buggy, but
+                            it worked. I
+                            actually used it while playing the game with friends. <br>
+                            I could make things that were useful. </p>
+                        <h3>So, why am I doing this?</h3>
+                        <p class=" text-md-left p-4">
+                            To get a job where I can feel like I’m doing something useful.<br>
+                            To prove to myself that I can do this.<br>
+                            To be better.
+                        </p>
+                        <!-- <a class="btn btn-secondary" style="background-color: #8590c1; color: #322E18;">Full Post</a> -->
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-80 p-3">
+            <div class="card" style="background-color: #B5B2BD;">
+                <div class="card-header" style="background-color: #8590C1">
+                    <h3>Week Four: On Pseudocode and Working From Home</h3>
+                    <h4>9/13/21 - 9/17/21</h4>
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+
+                        <h3>Weekly Breakdown</h3>
+                        <p class=" text-md-left p-4">
+                            This week was exhausting. We worked primarily on pseudocode (breaking down instructions for
+                            how
+                            a
+                            program should work into easily readable English.)<br>
+                            I have trouble thinking in that way - my mind tends to jump back and forth between different
+                            pieces of the project I'm working on, writing whatever code comes to mind at any given
+                            moment.
+                            The first time I attempted the pseudocode project (writing out an everyday task in
+                            pseudocode),
+                            I just wrote it out as code. I started again from the beginning and I feel that my second
+                            attempt is much better.<br>
+                            To improve my ability to pseudocode, I'll need to work on my ability to focus and break down
+                            ideas into smaller pieces in a specific order, focusing on what needs to be done at each
+                            stage,
+                            rather than just focusing on the overall project. I need to focus on simplification.<br>
+                            This week we also worked on a project that created a game in which the player controls an
+                            Evil
+                            Circle that causes bouncing balls to disappear.<br>
+                            I had a ton of fun with this project. I hit several stretch goals - I made the objects wrap
+                            to
+                            the other side of the screen when they went off the side; caused the bouncing balls to
+                            change
+                            color and size when they collided with one another; and even implemented a "You win!"
+                            message
+                            when the player gets rid of all of the balls, after which the game resets. With several
+                            sections
+                            of this project (particularly the counter which shows how many balls remain on screen), I
+                            found
+                            that pseudocode greatly aided me in breaking down exactly what needed to be done to solve
+                            the
+                            problem in that given instance.
+                            <br>
+                            My biggest roadblock with this project was caused by a simple typing error. I spent around
+                            an
+                            hour trying to get the bouncing ball game working again after I'd broken it trying to code
+                            the
+                            EvilCircle. After what felt like hours (it was probably about a half-hour) of scanning
+                            through
+                            the code, I realized I'd placed an additional set of parentheses.</p>
+
+                        <h4>The original:</h4>
+
+                        <code class="text-md-left p-4">EvilCircle.prototype = Object.create()(Shape.prototype);
+    EvilCircle.prototype.constructor = EvilCircle;</code>
+
+                        <p class=" text-md-left p-4">The fixed version:</p>
+
+                        <code class="text-md-left p-4">EvilCircle.prototype = Object.create(Shape.prototype);
+    EvilCircle.prototype.constructor = EvilCircle;</code><br>
+                        <figure class="figure">
+                            <img src="https://pbs.twimg.com/media/EOtgwQxUcAAhWWH?format=jpg&name=small"
+                                class="img-fluid figure-img" style="max-width: 100; height: auto; padding: .5em;">
+                            <figcaption class="figure-caption text sm-left">Pictured: Me, typing that additional set
+                                of
+                                parentheses.</figcaption>
+                        </figure>
+                        <p class="text-md-left p-4">
+                            After working on this project, I realized I may enjoy working in game design. I'll probably
+                            work
+                            on simple side projects of my own and go from there.</p>
+
+                        <hr>
+
+                        <p class="text-md-left p-4">
+                            The most helpful part of the onboarding process through Awesome Inc was the ability to work
+                            from
+                            home at my own pace. I'm typically not a morning person; I get my best work done in the
+                            afternoon and early evening. Working at home, I've been able to do everything at my own pace
+                            and
+                            in my own time. Adjusting to this sort of workload over a month at more or less my own pace
+                            made
+                            the process less painful.
+                            <br>
+                            Adjusting to the 8 am - 5 pm schedule in the coming weeks will be a challenge. Luckily, I've
+                            prepared in practically every way I could - Meals are prepped, contingency plans are set up
+                            (what if my car breaks down? What if...)
+                            <br>
+                            I'm as ready as I'll ever be.
+                            <br>
+                            The help channel on Slack was super helpful as well - being able to ask questions and to see
+                            other bootcampers' questions is incredibly useful. Several times during onboarding I had a
+                            problem or issue and opened up the help channel on Slack, only to see another bootcamper
+                            with a
+                            similar problem already solved.</p>
+                        <hr>
+                        <p class=" text-md-left p-4">
+                            My biggest hindrance during onboarding was imposter syndrome. I tend to feel my work isn't
+                            good
+                            enough - not just with regular code, but with other projects (including this blog.) I hate
+                            putting my work and words "out there."</p>
+                        <hr>
+                        <h3>On overcoming challenges:</h3>
+                        <p class=" text-md-left p-4">
+                            My primary methods for overcoming challenges during onboarding were</p>
+                        <ol>
+                            <li>"<strong>Google it</strong>" - If I encounter a problem, my first instinct is to search
+                                for
+                                information on
+                                how to fix that problem. The first few results for most of my code-related searches tend
+                                to
+                                pull up information from MDN Web Docs, W3 Schools, or StackOverflow. The former two are
+                                the
+                                preferred method of solving problems - MDN and W3 Schools give information on how
+                                processes
+                                actually work, and while StackOverflow answers usually give working code, they often
+                                don't
+                                give the best explanation for <em>why</em> it works.</li>
+                            <li>"<strong>Throw stuff at the wall and see what happens</strong>" - This only works for
+                                problems about which I
+                                already have a little bit of knowledge. If I know a bit about what <em>should</em> fix
+                                the
+                                problem,
+                                I can usually work it out eventually.</li>
+                            <li>"<strong>Ask for help</strong>" - I've always had a problem asking for help. I'd rather
+                                not
+                                admit I have a
+                                problem than show weakness - though when I've asked for help, I've been pointed in the
+                                right
+                                direction fairly quickly. I'm hoping to improve upon this during the next few months.
+                            </li>
+                        </ol>
+                        </p>
+                        <!-- <a class="btn btn-secondary" style="background-color: #8590c1; color: #322E18;">Full Post</a> -->
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="w-80 p-3">
+            <div class="card" style="background-color: #B5B2BD;">
+                <div class="card-header" style="background-color: #8590C1">
+                    <h3>Week Four: On Pseudocode and Working From Home</h3>
+                    <h4>9/6/21 - 9/10/21</h4>
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p class=" text-md-left p-4">
+                            So ends yet another exciting week of work for Awesome Inc's Bootcamp. I feel like I'm
+                            getting a
+                            better grasp on Javascript overall, though I have *so much more* to learn. I spent a ton of
+                            time
+                            this week debugging code to my "<a
+                                href="(https://en.wikipedia.org/wiki/Rubber_duck_debugging)">rubber duck</a>" (actually
+                            an
+                            Awesome Inc. branded
+                            stress-ball pig, pictured below) - I'm quite confident my wife thinks I've lost my mind.
+                        </p>
+                        <figure>
+                            <img src="img/pig-picture.jpg" class="img-fluid"
+                                style="max-width: 100; height: 20em; padding: 1em;">
+                            <figcaption>Handsome little guy, isn't he? I call him "Horton".</figcaption>
+                        </figure>
+                        <hr>
+                        <p class=" text-md-left p-4">
+                            The first project we worked on this week was a story generator. The generator takes a
+                            paragraph
+                            of text and replaces various parts of the string (“<code>:insertx:”, “:inserty:</code>",
+                            etc.)
+                            with other
+                            strings to make a story that changes when you press a button. To change these strings, the
+                            generator pulls strings from a series of arrays. <br>
+
+                            I got through the project without much trouble - just a bit of Googling and talking to the
+                            pig.
+                            I pondered for a while over a string that needed to be replaced twice, before remembering a
+                            <a href="https://www.codewars.com/">Codewars</a> kata I worked on in early August that
+                            required
+                            replacing
+                            all instances of a string using only one line of code.
+                            I used <code>replaceAll()</code> to change both instances of the string without re-running
+                            the
+                            same code
+                            twice.<br>
+
+                            I may update the CSS on this project at a future date - it's pretty hideous as of now.
+                        </p>
+                        <hr>
+                        <p class=" text-md-left p-4">
+                            I spent two straight days working on this week’s second project, an alarm clock. <br>
+
+                            I was able to get the time to appear without <em>too</em> much trouble: <br>
+
+                            I created a function to show the time. To start, I created variables to pull in the date,
+                            and to
+                            pull the hours, minutes, and seconds as variables from the date.</p>
+                        <code class="text-md-left p-4">
+                        function updateTime() {
+                        var date = new Date();
+                        
+                        var hour = date.getHours();
+                        var minute = date.getMinutes();
+                        var second = date.getSeconds();
+                    </code>
+                        <p class=" text-md-left p-4">From there, I converted from military to standard time by
+                            subtracting 12 from the hours if they were higher than 12 (So, for example, if the hour
+                            appeared
+                            as 14, it would subtract 12 to get 2 o'clock.) Also, if the hour is 0, I converted it to 12
+                            -
+                            midnight.</p>
+                        <code class="text-md-left p-4">
+                        if (hour > 12) {
+                            hour = (hour - 12);
+                        } else if (hour == 0) {
+                            hour = '12';
+                        }
+                    </code>
+                        <p class=" text-md-left p-4">When I tested this, I noticed the hours and minutes
+                            appeared as single numbers when they were not 10 or higher. (Ex: 953 to show 9:05:03) This
+                            simply wouldn't do. I had to add a zero in front of minutes or seconds less than 10. I added
+                            a
+                            zero in front of the hour as well, for uniformity and to keep the other digits on the clock
+                            from
+                            moving awkwardly to the right when the hour changed from single to double-digits.</p>
+                        <code class="text-md-left p-4">
+                        if (hour &lt 10) {
+                            hour = '0' + hour;
+                        }
+                        if (minute &lt 10) {
+                            minute = '0' + minute;
+                        }
+                        if (second &lt 10) {
+                            second = '0' + second;
+                        }
+                    </code>
+                        <p class=" text-md-left p-4"></p>With that sorted, I needed to format this information
+                        to appear as it would on a clock, adding colons between hour/minute/second - so I made a
+                        variable,
+                        `currentTime` (and also added in `<span>` to help the CSS for an animation on the colons):</p>
+                            <code class="text-md-left p-4">
+                            var currentTime = `${hour}<span class="blink">:</span>${minute}<span class="blink">:</span>${second}`;
+                        </code>
+                            <p class=" text-md-left p-4"></p>Finally, I needed to display the time in the HTML:
+                            </p>
+                            <code class="text-md-left p-4">
+                                document.getElementById('time').innerHTML=currentTime;
+                                }
+                            </code>
+                            <p class=" text-md-left p-4"></p>And with that, we had a way to display the time.
+
+                            <em>"Easy."</em> <a href="https://www.urbandictionary.com/define.php?term=%2FS">/s</a>
+
+                            <p class=" text-md-left p-4">But the time didn't update without refreshing the page.
+
+                                For that, I needed to use `setInterval()`:</p>
+                            <code class="text-md-left p-4">
+                            setInterval(updateTime, 1000)
+                            </code>
+                            <p class=" text-md-left p-4">And with that, I had a clock that updated every 1000
+                                milliseconds.<br>
+
+                                My next challenge was getting the alarms to work. <br>
+
+                                My first attempt at alarms ran directly from HTML, like so: <br>
+
+                                HTML: </p>
+
+                            &ltbutton onclick="setTimeout(alarm, 600000)"&rtTEN MINUTE ALARM&lt/button&rt
+
+                            <p class=" text-md-left p-4">JS: </p>
+                            <code class="text-md-left p-4">
+                            function alarm() {<br>
+                            document.getElementById('alertSound').play();<br>
+                            alert('!');<br>
+                            }
+                        </code>
+                            <p class=" text-md-left p-4"></p>This used the button click to call the alarm
+                            function to set off a sound file and an alert. This technically worked, but I read this week
+                            that calling the function from HTML is not considered "best practice." The alarm sound and
+                            the
+                            visible alert also ran a few seconds apart, which wasn't great.
+
+                            I had to do something else.<br>
+
+                            I removed the function call from HTML and moved the calls to Javascript:<br>
+
+                            HTML: </p>
+                            <code class="text-md-left p-4">
+                            &ltbutton id="eightHour">EIGHT HOUR ALARM&lt/button> <br>
+
+                            &ltbutton id="tenMinute">TEN MINUTE ALARM&lt/button> <br>
+                                    
+                            &ltbutton id="tenSecond">TEN SECOND ALARM&lt/button> <br>
+                        </code>
+                            JS:
+                            <code class="text-md-left p-4">
+                            // variables to run different alarms
+                            var eightHour = document.getElementById('eightHour');
+                            var tenMinute = document.getElementById('tenMinute');
+                            var tenSecond = document.getElementById('tenSecond');
+
+                            // function calls for alarms
+
+                            tenSecond.onclick = setTimeout(alarm, 10000);
+                        </code>
+                            <p class=" text-md-left p-4"></p>The alarms ran instantly every time I clicked the
+                            alarm buttons, even though I'd included <code>setTimeout()</code> to make them wait a set
+                            amount
+                            of time
+                            before running. I struggled with this for a long while.
+                            With input from Awesome Inc instructor Justin Hall, I switched to inline functions, like so:
+                            </p>
+                            <code class="text-md-left p-4">
+                            eightHour.onclick = function () {setTimeout(alarm, 28800000);}
+                            tenMinute.onclick = function () {setTimeout(alarm, 600000);}
+                            tenSecond.onclick = function () {setTimeout(alarm, 10000);}
+                        </code>
+                            <p class=" text-md-left p-4"></p>And thus the alarms worked with the proper
+                            countdowns.
+
+                            I was able to get buttons for specific time increments working - 8 hour, ten-minute, and
+                            ten-second test alarms, but I've thus far been unable to get an alarm to set for a specific
+                            time
+                            of day.<br>
+
+                            Roughly a third of my time on this project was spent on CSS - I found an excellent font for
+                            the
+                            clock numbers, and for the sound, I used the classic <a
+                                src="https://www.youtube.com/watch?v=aXieXlAbpQg">alarm from every 80's clock
+                                radio</a>.<br>ß
+
+                            Once I have a better grasp of Javascript, I intend to come back to this project and set up
+                            an
+                            alarm that can be set for a specific time of day - for example, by typing in a specific time
+                            of
+                            day. I’d also like to incorporate a dark/light theme button, as well as responsive CSS.
+                            </p>
+                            <!-- <a class="btn btn-secondary" style="background-color: #8590c1; color: #322E18;">Full Post</a> -->
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="w-80 p-3">
+            <div class="card" style="background-color: #B5B2BD;">
+                <div class="card-header" style="background-color: #8590C1">
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p class=" text-md-left p-4">Remaining Blog Posts to be Added Soon!</p>
+                        <!-- <a class="btn btn-secondary" style="background-color: #8590c1; color: #322E18;">Full Post</a> -->
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+    </div>
+
+    <!-- <div class="w-80 p-3">
+        <div class="card" style="background-color: #B5B2BD;">
+            <div class="card-header" style="background-color: #8590C1">
+                <h3>ARTICLE TITLE</h3>
+                <h4>ARTICLE DATE</h4>
+            </div>
+            <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                    <p class=" text-md-center p-4">This is article text. Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit. Praesent bibendum, mi nec fringilla venenatis, urna nisi vulputate
+                        metus, molestie lobortis nibh justo vitae nunc. Quisque pellentesque, felis vitae tincidunt
+                        cursus, nisl nunc fringilla nunc, sed sollicitudin erat est rutrum erat. Maecenas interdum,
+                        lectus vitae semper vulputate, turpis ipsum ullamcorper dui, a condimentum augue tortor ac arcu.
+                        Mauris blandit iaculis tortor, quis consequat nulla porttitor eget. Integer lectus magna, porta
+                        a euismod at, mollis vitae diam. Aliquam eu mi id mauris ultrices maximus ut eget justo. Morbi
+                        in est ac turpis blandit sollicitudin et eu nisl. Etiam at malesuada tellus, a pretium orci.
+                        Vivamus venenatis efficitur turpis, sed dapibus tortor tincidunt vitae. Donec quam dui, lacinia
+                        a arcu sed, pulvinar suscipit elit.</p>
+                    <a class="btn btn-secondary" style="background-color: #8590c1; color: #322E18;">Full Post</a>
+                </blockquote>
+            </div>
+        </div>
+    </div> -->
+
+    <br>
+
+    <div class="container"></div>
+    <footer class="footer">© Tony Watson 2021</footer>
+    <!-- bottom of page navigation -->
+    <!-- <nav class="fixed-bottom .mx-auto" style="width: 50%;" aria-label="...">
+  <ul class="pagination">
+    <li class="page-item disabled">
+      <a class="page-link">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item active" aria-current="page">
+      <a class="page-link" href="#">2</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+</nav> -->
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="./js/main.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
 </body>
+
 </html>
