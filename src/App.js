@@ -1,4 +1,5 @@
 import './App.css';
+import 'animate.css';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Blog from './pages/Blog'

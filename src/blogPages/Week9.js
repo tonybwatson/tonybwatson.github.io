@@ -5,7 +5,7 @@ export default function Week9() {
         <div className="container">
             <div className="card bg-dark border border-info">
                 <div className="card-body">
-                    <h5 className="card-title">Week Nine - On the Command Line Interface and Frameworks</h5>
+                    <h2 className="card-title">Week Nine - On the Command Line Interface and Frameworks</h2>
                     <h6 className="card-subtitle mb-2 text-muted">10/18/21 - 10/22/21</h6>
                     <p className="card-text text-start">
                         When the bootcamp first started, the command line terrified me.<br></br>

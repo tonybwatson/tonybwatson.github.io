@@ -13,9 +13,9 @@ export default function SplashPage() {
 				<div className="row">
 					<h2>I'm an aspiring web developer.</h2>
 				</div>
-				<h2>While you're here, learn a little bit <a href="/about" className="link-warning">about me</a>.</h2>
-				<h2>Have a look at my <a href="/portfolio" className="link-warning">portfolio</a>.</h2>
-				<h2>Check out my <a href="/blog" className="link-warning">blog</a>.</h2>
+				<h2>While you're here, learn a little bit <a href="/about" className="link-light">about me</a>.</h2>
+				<h2>Have a look at my <a href="/portfolio" className="link-light">portfolio</a>.</h2>
+				<h2>Check out my <a href="/blog" className="link-light">blog</a>.</h2>
 			</div>
 		</>
 	)

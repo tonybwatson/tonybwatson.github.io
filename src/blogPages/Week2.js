@@ -5,7 +5,7 @@ export default function Week2() {
         <div className="container">
             <div className="card bg-dark border border-info">
                 <div className="card-body">
-                    <h5 className="card-title">Week Two</h5>
+                    <h2 className="card-title">Week Two</h2>
                     <h6 className="card-subtitle mb-2 text-muted">9/3/21</h6>
                     <p className="card-text text-start">
                         This week has certainly been <em>Awesome</em>…

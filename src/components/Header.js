@@ -1,11 +1,6 @@
 import React from 'react'
 import { Navbar, Container, Nav } from 'react-bootstrap'
-import {
-	BrowserRouter as Router,
-	Switch,
-	Route,
-	Link
-} from "react-router-dom";
+import { BrowserRouter as Router, } from "react-router-dom";
 
 export default function Header() {
 	return (
@@ -14,9 +9,9 @@ export default function Header() {
 				<Navbar bg="dark" variant="dark" expand="xs">
 					<Container >
 						<Navbar.Brand ></Navbar.Brand>
-						<Navbar.Toggle aria-controls="basic-navbar-nav" className="border border-info"/>
+						<Navbar.Toggle aria-controls="basic-navbar-nav" className="border border-info" />
 						<Navbar.Collapse id="basic-navbar-nav">
-							<Nav className="me-auto" >
+							<Nav  >
 								<Nav.Link href="/about">
 									About Me
 								</Nav.Link>
