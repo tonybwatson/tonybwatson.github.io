@@ -18,8 +18,7 @@ function App() {
 	return (
 		<>
 			<Router>
-				<Header />
-				<hr />
+				
 				<Switch>
 					<Route path="/about">
 						<AboutMe />

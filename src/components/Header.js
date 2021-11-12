@@ -8,7 +8,7 @@ export default function Header() {
 			<Router>
 				<Navbar bg="dark" variant="dark" expand="xs">
 					<Container >
-						<Navbar.Brand ></Navbar.Brand>
+						<Navbar.Brand ><h2>Tony Watson - Web Developer</h2></Navbar.Brand>
 						<Navbar.Toggle aria-controls="basic-navbar-nav" className="border border-info" />
 						<Navbar.Collapse id="basic-navbar-nav">
 							<Nav  >
@@ -26,6 +26,7 @@ export default function Header() {
 					</Container>
 				</Navbar>
 			</Router >
+			<hr/>
 		</>
 	)
 }
