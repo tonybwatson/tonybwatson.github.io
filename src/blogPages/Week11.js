@@ -5,7 +5,7 @@ export default function Week11() {
 		<div className="container">
 			<div className="card bg-dark border border-info">
 				<div className="card-body">
-					<h2 className="card-title">Week 11</h2>
+					<h2 className="card-title">Week Eleven</h2>
 					<h6 className="card-subtitle mb-2 text-muted">11/1 - 11/5/2021</h6>
 					<p className="card-text text-start">
 						Javascript and PHP seem to have quite a few similarities - primarily in syntax. The dollar signs in front of variables with PHPcan be a bit off-putting at first, but overall the change hasn't been super-hard to adjust to. <br></br>

@@ -28,7 +28,7 @@ export default function Portfolio() {
 							<Card className="bg-dark border border-info mb-4 h-100 animate__animated animate__zoomIn">
 								<Card.Body>
 									<Card.Title>Login Page</Card.Title>
-									<img src={login} alt="login screen" className="img-fluid" />
+									<img src={login} alt="login screen" className="img-fluid portfolioPic" />
 									<Card.Text className="mt-3">
 										This project is a login page which utilizes React hooks to allow users to set up a user account, log in, and log out.
     								</Card.Text>
@@ -48,7 +48,7 @@ export default function Portfolio() {
 							<Card className="bg-dark border border-info mb-4 h-100 animate__animated animate__zoomIn">
 								<Card.Body>
 									<Card.Title>To-Do List</Card.Title>
-									<img src={todo} alt="to-do list" className="img-fluid" />
+									<img src={todo} alt="to-do list" className="img-fluid portfolioPic" />
 									<Card.Text className="mt-3">
 										The objective of this project was to create a to-do list using React. New to-do items can be added to the list, checked off and deleted.
     								</Card.Text>
@@ -68,7 +68,7 @@ export default function Portfolio() {
 							<Card className="bg-dark border border-info mb-4 h-100 animate__animated animate__zoomIn">
 								<Card.Body>
 									<Card.Title>Restaurant Menu</Card.Title>
-									<img src={restaurant} alt="restaurant menu" className="img-fluid" />
+									<img src={restaurant} alt="restaurant menu" className="img-fluid portfolioPic" />
 									<Card.Text className="mt-3">
 										This project uses an Axios API call and React to dynamically render a restaurant menu.
     								</Card.Text>
@@ -90,7 +90,7 @@ export default function Portfolio() {
 							<Card className="bg-dark border border-info mb-4 h-100 animate__animated animate__zoomIn">
 								<Card.Body>
 									<Card.Title>Mind Reader</Card.Title>
-									<img src={mindreader} alt="mindreader" className="img-fluid" />
+									<img src={mindreader} alt="mindreader" className="img-fluid portfolioPic" />
 									<Card.Text className="mt-3">
 										This project uses Javascript to control page state. It uses a simple mathematical trick to guess the user's chosen number.
     								</Card.Text>
@@ -110,7 +110,7 @@ export default function Portfolio() {
 							<Card className="bg-dark border border-info mb-4 h-100 animate__animated animate__zoomIn">
 								<Card.Body>
 									<Card.Title>Weather App</Card.Title>
-									<img src={weather} alt="weather app" className="img-fluid" />
+									<img src={weather} alt="weather app" className="img-fluid portfolioPic" />
 									<Card.Text className="mt-3">
 										This project utilizes an API call to display weather information from a user-submitted zip code.
     								</Card.Text>
@@ -130,7 +130,7 @@ export default function Portfolio() {
 							<Card className="bg-dark border border-info mb-4 h-100 animate__animated animate__zoomIn">
 								<Card.Body>
 									<Card.Title>80's Alarm Clock</Card.Title>
-									<img src={clock} alt="clock" className="img-fluid" />
+									<img src={clock} alt="clock" className="img-fluid portfolioPic" />
 									<Card.Text className="mt-3">
 										This project used vanilla Javascript and a ton of CSS to make an alarm clock.
     							</Card.Text>

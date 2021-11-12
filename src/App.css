@@ -23,3 +23,13 @@ h1, h2 {
   width: 100%;
   height: 1rem;
 }
+
+.portfolioPic{
+	filter: blur(1px) brightness(50%);
+}
+
+.portfolioPic:hover {filter: none;}
+
+.btn:hover {
+	filter: contrast(150%);
+}

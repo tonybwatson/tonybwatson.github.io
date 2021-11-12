@@ -21,7 +21,7 @@ export default function Week9() {
                         Without a framework, anything much more complicated than a simple app is much harder.<br></br> 
                         The more moving parts in the project, the more building it without a framework becomes like eating a clock: </p>
                         <h4 className="text-start"><em>Time-consuming</em>.</h4><br></br>
-                        <iframe width="500" height="250" src="https://www.youtube.com/embed/8X_Ot0k4XJc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe max-width="500" height="250" src="https://www.youtube.com/embed/8X_Ot0k4XJc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <p className="card-text text-start">
                         Frameworks make wrangling all the different parts of a project easier; they can be compartmentalized.
                     </p>
