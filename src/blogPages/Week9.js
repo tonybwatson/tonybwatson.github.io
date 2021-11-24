@@ -12,9 +12,8 @@ export default function Week9() {
                         Every time I typed something in, I half-expected to mistype something and brick my computer.<br></br>
                         Luckily, ruining a computer isn't that easy, and minor errors usually only set me back by a little bit, if at all.<br></br>
                         <hr></hr>
-                        If I were to build my own Command Line interface, I'd like to include predictive typing - something that would help avoid accidentally sending the wrong command.<br></br>
-                        I'd also like to shorten some of the commands -- a git commit takes several lines of code, and I'd prefer to commit with less effort for minor commits.<br></br>
-                        A push to main should take a bit of thought and effort, so that it isn't sent all willy-nilly, but just saving after a few changes shouldn't take 3 lines of code.<br></br>
+                        If I were to build my own Command Line interface, I'd like to include shortcuts for some of the commands -- for example, a git commit takes several lines of code, and I'd prefer to "save my progress" with less effort for minor commits.<br></br>
+                        A push to main should take a bit of thought and effort, so that it isn't sent all willy-nilly, but just saving after a few changes is something I'd do more often if it didn't take 3 lines of code.<br></br>
                         The fewer lines I have to type on the CLI, the fewer chances I have to make a typing error.<br></br>
                         <hr></hr>
                         <h2>On the usefulness of frameworks:</h2>
