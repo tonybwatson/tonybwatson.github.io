@@ -26,6 +26,7 @@ h1, h2 {
 
 .portfolioPic{
 	filter: blur(1px) brightness(65%);
+	border: white 1px;
 }
 
 .portfolioPic:hover {filter: none;}

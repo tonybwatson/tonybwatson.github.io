@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../components/Header'
+import breaddit from '../img/breaddit.jpg'
 import clock from '../img/clock.jpeg'
 import login from '../img/login.jpeg'
 import mindreader from '../img/mindreader.jpeg'
@@ -21,14 +22,44 @@ export default function Portfolio() {
 						</h1>
 					</Col>
 					<Col></Col>
+
+					<Row>
+						<Col xs={3}></Col>
+						<Col className="mb-4">
+							<Card className="bg-dark border border-info mb-4 h-100 animate__animated animate__zoomIn">
+								<Card.Body>
+									<Card.Title>Breaddit</Card.Title>
+									<a href="https://to-do-list-177dd.web.app" target="_blank" rel="noreferrer">
+										<img src={breaddit} alt="breaddit" className="img-fluid portfolioPic" />
+									</a>
+									<Card.Text className="mt-3">
+										This project is a clone of the popular content-sharing site, Reddit. Users can create unique usernames, create posts, create new "subreaddits" for sharing different kinds of content, comment on posts, and vote on content.
+    								</Card.Text>
+								</Card.Body>
+								<Card.Footer>
+									<Button className="btn btn-dark border border-info m-1"
+										href="https://breaddit-98084.web.app/"
+										target="_blank">Project</Button>
+									<Button className="btn btn-dark border border-info m-1"
+										href="https://github.com/tonybwatson/breadditFrontEnd"
+										target="_blank">Front-End Code</Button>
+									<Button className="btn btn-dark border border-info m-1"
+										href="https://github.com/tonybwatson/breadditBackEnd"
+										target="_blank">Back-End Code</Button>
+								</Card.Footer>
+							</Card>
+						</Col>
+						<Col xs={3}></Col>
+					</Row>
 				</Row>
+
 				<CardGroup>
 					<Row>
 						<Col className="col-md-4 mb-3">
 							<Card className="bg-dark border border-info mb-4 h-100 animate__animated animate__zoomIn">
 								<Card.Body>
 									<Card.Title>Login Page</Card.Title>
-									<a href="https://fishing-hooks-6cc80.web.app/" target="_blank">
+									<a href="https://fishing-hooks-6cc80.web.app/" target="_blank" rel="noreferrer">
 										<img src={login} alt="login screen" className="img-fluid portfolioPic" />
 									</a>
 									<Card.Text className="mt-3">
@@ -50,7 +81,7 @@ export default function Portfolio() {
 							<Card className="bg-dark border border-info mb-4 h-100 animate__animated animate__zoomIn">
 								<Card.Body>
 									<Card.Title>To-Do List</Card.Title>
-									<a href="https://to-do-list-177dd.web.app" target="_blank">
+									<a href="https://to-do-list-177dd.web.app" target="_blank" rel="noreferrer">
 										<img src={todo} alt="to-do list" className="img-fluid portfolioPic" />
 									</a>
 									<Card.Text className="mt-3">
@@ -72,7 +103,7 @@ export default function Portfolio() {
 							<Card className="bg-dark border border-info mb-4 h-100 animate__animated animate__zoomIn">
 								<Card.Body>
 									<Card.Title>Restaurant Menu</Card.Title>
-									<a href="https://restaurant-menu-600d0.web.app" target="_blank">
+									<a href="https://restaurant-menu-600d0.web.app" target="_blank" rel="noreferrer">
 										<img src={restaurant} alt="restaurant menu" className="img-fluid portfolioPic" />
 									</a>
 									<Card.Text className="mt-3">
@@ -96,7 +127,7 @@ export default function Portfolio() {
 							<Card className="bg-dark border border-info mb-4 h-100 animate__animated animate__zoomIn">
 								<Card.Body>
 									<Card.Title>Mind Reader</Card.Title>
-									<a href="https://tonybwatson.github.io/mindReader/" target="_blank">
+									<a href="https://tonybwatson.github.io/mindReader/" target="_blank" rel="noreferrer">
 										<img src={mindreader} alt="mindreader" className="img-fluid portfolioPic" />
 									</a>
 									<Card.Text className="mt-3">
@@ -119,7 +150,7 @@ export default function Portfolio() {
 								<Card.Body>
 									<Card.Title>Weather App</Card.Title>
 									<a href="https://tonybwatson.github.io/weather_app/"
-										target="_blank">
+										target="_blank" rel="noreferrer">
 										<img src={weather} alt="weather app" className="img-fluid portfolioPic" />
 									</a>
 									<Card.Text className="mt-3">
@@ -142,7 +173,7 @@ export default function Portfolio() {
 								<Card.Body>
 									<Card.Title>80's Alarm Clock</Card.Title>
 									<a href="https://tonybwatson.github.io/alarm_clock/"
-										target="_blank">
+										target="_blank" rel="noreferrer">
 										<img src={clock} alt="clock" className="img-fluid portfolioPic" />
 									</a>
 									<Card.Text className="mt-3">
