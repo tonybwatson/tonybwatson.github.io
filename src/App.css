@@ -43,3 +43,7 @@ a img {
   -webkit-filter: invert(100%);
 	height: 20px;
 }
+
+#facepic {
+	max-height: 300px;
+}
