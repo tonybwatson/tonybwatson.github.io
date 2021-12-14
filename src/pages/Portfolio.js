@@ -15,15 +15,14 @@ export default function Portfolio() {
 			<Header />
 			<Container>
 				<Row>
-					<Col></Col>
+					<Col xs={3}></Col>
 					<Col xs={6} className="my-5">
 						<h1 className="py-2 text-center text-info border border-info rounded">
 							<u>My Most Recent Projects</u>
 						</h1>
 					</Col>
-					<Col></Col>
+					<Col xs={3}></Col>
 
-					<Row>
 						<Col xs={3}></Col>
 						<Col className="mb-4">
 							<Card className="bg-dark border border-info mb-4 h-100 animate__animated animate__zoomIn">
@@ -51,7 +50,6 @@ export default function Portfolio() {
 						</Col>
 						<Col xs={3}></Col>
 					</Row>
-				</Row>
 
 				<CardGroup>
 					<Row>
