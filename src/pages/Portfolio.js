@@ -28,7 +28,7 @@ export default function Portfolio() {
 							<Card className="bg-dark border border-info mb-4 h-100 animate__animated animate__zoomIn">
 								<Card.Body>
 									<Card.Title>Breaddit</Card.Title>
-									<a href="https://to-do-list-177dd.web.app" target="_blank" rel="noreferrer">
+									<a href="https://breaddit.web.app/" target="_blank" rel="noreferrer">
 										<img src={breaddit} alt="breaddit" className="img-fluid portfolioPic" />
 									</a>
 									<Card.Text className="mt-3">
